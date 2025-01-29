@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Restaurants Across Jaipur</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .Restaurants {
+            width: 300px;
+            font-family: 'Arial', sans-serif;
+            box-shadow: rgba(252, 71, 170, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            flex: 1 1 calc(33.33% - 20px); /* Three items per row */
+        }
+
+        .Restaurants .Res-Img {
+            background-size: cover;
+            height: 300px;
+        }
+
+        .Restaurants .Palladio { background-image: url("/Users/krishnarathore/Downloads/WAD/Palladio.jpg"); }
+        .Restaurants .Niros { background-image: url("/Users/krishnarathore/Downloads/WAD/Niros.png"); }
+        .Restaurants .Rambagh { background-image: url("/Users/krishnarathore/Downloads/WAD/Rambagh.jpeg"); }
+        .Restaurants .Sujan { background-image: url("/Users/krishnarathore/Downloads/WAD/Sujan.jpg"); }
+        .Restaurants .Ohana { background-image: url("/Users/krishnarathore/Downloads/WAD/Ohana.jpeg"); }
+        .Restaurants .Pinkbar { background-image: url("/Users/krishnarathore/Downloads/WAD/Pinkbar.jpeg"); }
+        .Restaurants .Clocktower { background-image: url("/Users/krishnarathore/Downloads/WAD/Clocktower.jpg"); }
+        .Restaurants .OTH { background-image: url("/Users/krishnarathore/Downloads/WAD/OTH.jpg"); }
+        .Restaurants .Crossword { background-image: url("/Users/krishnarathore/Downloads/WAD/Crossword.jpg"); }
+
+        .Restaurants .Res-det {
+            background-color: rgb(169, 182, 248);
+            color: white;
+            padding: 20px;
+            text-align: right;
+        }
+
+        .Restaurants .Res-det h1 {
+            font-size: 0.9rem;
+            font-weight: lighter;
+        }
+
+        .Restaurants .Res-det p {
+            font-size: 0.5rem;
+            font-weight: lighter;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Restaurants">
+            <div class="Res-Img Palladio"></div>
+            <div class="Res-det">
+                <h1>Palladio</h1>
+                <p>Experts rate 5/5</p>
+            </div>
+        </div>
+
+        <div class="Restaurants">
+            <div class="Res-Img Niros"></div>
+            <div class="Res-det">
+                <h1>Niros</h1>
+                <p>Experts rate 4.5/5</p>
+            </div>
+        </div>
+
+        <div class="Restaurants">
+            <div class="Res-Img Rambagh"></div>
+            <div class="Res-det">
+                <h1>Rambagh</h1>
+                <p>Experts rate 4.7/5</p>
+            </div>
+        </div>
+
+        <div class="Restaurants">
+            <div class="Res-Img Sujan"></div>
+            <div class="Res-det">
+                <h1>Sujan</h1>
+                <p>Experts rate 6/5</p>
+            </div>
+        </div>
+
+        <div class="Restaurants">
+            <div class="Res-Img Ohana"></div>
+            <div class="Res-det">
+                <h1>Ohana</h1>
+                <p>Experts rate 3/5</p>
+            </div>
+        </div>
+
+        <div class="Restaurants">
+            <div class="Res-Img Pinkbar"></div>
+            <div class="Res-det">
+                <h1>Pinkbar</h1>
+                <p>Experts rate pink/5</p>
+            </div>
+        </div>
+
+        <div class="Restaurants">
+            <div class="Res-Img Clocktower"></div>
+            <div class="Res-det">
+                <h1>Clock Tower</h1>
+                <p>Experts don't rate this</p>
+            </div>
+        </div>
+
+        <div class="Restaurants">
+            <div class="Res-Img OTH"></div>
+            <div class="Res-det">
+                <h1>OTH</h1>
+                <p>Experts went here but forgot to rate it</p>
+            </div>
+        </div>
+
+        <div class="Restaurants">
+            <div class="Res-Img Crossword"></div>
+            <div class="Res-det">
+                <h1>Crossword</h1>
+                <p>Experts say that's a bookstore, not a bar</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
